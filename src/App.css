@@ -10,7 +10,7 @@
   margin-bottom: 20px;
 }
 
-.main-content {
+.search {
   display: flex;
   flex-flow: row wrap;
   width: auto;
@@ -36,13 +36,18 @@
 }
 
 .headerStyle {
-    background-color: #f8f8f8;
-    border-top: 1px solid #e7e7e7;
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 30px;
-    width: 100%;
-  }
+  background-color: #f8f8f8;
+  border-top: 1px solid #e7e7e7;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 30px;
+  width: 100%;
+  display: none;
+}
+
+.search {
+  right: 50px
+}
